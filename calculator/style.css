@@ -1,0 +1,38 @@
+.keypad{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    width: 100px;
+    padding: 5px;
+}
+.result_box{
+    border: 2px solid black;
+    width: 296px;
+}
+
+.calculator_box{
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: flex-end;
+}
