@@ -1,0 +1,31 @@
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+button{
+    width: 150px;
+    border-radius: 20px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.wishlist{
+    padding: 10px 20px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.3;
+}
